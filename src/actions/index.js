@@ -10,3 +10,9 @@ export const fetchPosts=()=>{
     };
     }
 };
+
+export const selectPost=()=>{
+    return {
+        type: 'SELECT_POST'
+    }
+}
